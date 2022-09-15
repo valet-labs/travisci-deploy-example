@@ -1,5 +1,6 @@
 env:
-  DB=mysql
+  global:
+    - DB=mysql
 
 os:
   - linux
